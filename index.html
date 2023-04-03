@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="app-main">
+        <div class="searchInputBox">
+         <input type="text" required id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+        </div>
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city"></div>
+                <div class="date" id="date"></div>
+            </div>
+            <div class="weather-status">
+                <div class="temp" id="temp"></div>
+                <div class="min-max" id="min-max"></div>
+                <div class="weather" id="weather"></div>
+                <div class="img"></div>
+            </div>
+
+        </div>
+    </div> 
+     
+    <script src="app.js"></script>
+    
+</body>
+</html>
